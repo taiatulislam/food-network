@@ -1,6 +1,5 @@
 body {
-    font-family: 'Poppins', sans-serif;
-    color: rgb(79, 79, 79);
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1 {
@@ -16,7 +15,16 @@ h2 {
 }
 
 .orange-color {
-    color: orange;
+    color: darkorange;
+}
+
+.color-gray {
+    color: rgb(79, 79, 79);
+}
+
+.light-text {
+    font-weight: normal;
+    color: rgb(85, 85, 85);
 }
 
 .top-left {
@@ -25,11 +33,12 @@ h2 {
 }
 
 .top-left p {
-    padding-bottom: 30px;
+    line-height: 1.8;
+    padding-bottom: 40px;
 }
 
 .top-right {
-    width: 70%;
+    width: 60%;
 }
 
 .top-right img {
@@ -40,7 +49,7 @@ h2 {
 .order-button {
     text-decoration: none;
     background-image: repeating-linear-gradient(to right, orange, tomato);
-    padding: 10px 30px;
+    padding: 15px 30px;
     border-radius: 40px;
     color: white;
 }
@@ -73,4 +82,36 @@ h2 {
     padding: 20px 30px;
     border-radius: 40px;
     color: white;
+}
+
+.recipies {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.box {
+    border-radius: 20px;
+    padding: 1%;
+    margin: 2%;
+}
+
+.box p {
+    margin-top: -15px;
+    color: gray;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+.box-shadow {
+    box-shadow: 2px 2px 10px rgb(200, 200, 200), -2px 0 2px rgb(200, 200, 200);
+}
+
+.box img {
+    width: 100%;
+}
+
+.box-padding {
+    margin-left: 70px;
+    margin-right: 70px;
 }
